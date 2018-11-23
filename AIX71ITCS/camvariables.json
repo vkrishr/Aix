@@ -1,0 +1,139 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [
+    {
+      "name": "Instances-openstack_compute_instance_v2.instance",
+      "label": "Instances - openstack_compute_instance_v2.instance"
+    },
+    {
+      "name": "Other-openstack",
+      "label": "Other - openstack"
+    },
+    {
+      "name": "instances",
+      "label": "Instances"
+    },
+    {
+      "name": "openstack_compute_instance_v2_networks",
+      "label": "openstack_compute_instance_v2 Networks"
+    }
+  ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "openstack_user_name",
+      "label": "Openstack User Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "root",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": true,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "openstack_password",
+      "label": "Openstack Password",
+      "description": "Generated",
+      "type": "string",
+      "default": "Work42ls",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": true,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "openstack_project_name",
+      "label": "Openstack Project Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "ibm-default",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": true,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "openstack_domain_name",
+      "label": "Openstack Domain Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "Default",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": true,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "openstack_region",
+      "label": "Openstack Region",
+      "description": "Generated",
+      "type": "string",
+      "default": "RegionOne",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": true,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "instance_name",
+      "label": "Instance Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "openstack_image_name",
+      "label": "Openstack Image Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "AIX72_ITCS",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": true,
+      "immutable_after_create": false
+    },
+    {
+      "name": "openstack_flavor_name",
+      "label": "Openstack Flavor Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "C2-M4-D80",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
