@@ -44,5 +44,14 @@ variable "openstack_flavor_name" {
   description = "Generated"
 }
 
+variable "sudo_user" {
+  description = "specify an username"
+  default     = "clouduser"
+}
+
+variable "sudo_password_length" {
+  description = "specify the password length"
+  default     = "20"
+}
 
 
